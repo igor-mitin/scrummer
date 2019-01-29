@@ -1,0 +1,2037 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* project_agile
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0-20180828\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-29 07:06+0000\n"
+"PO-Revision-Date: 2019-01-29 10:12+0300\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: ru\n"
+"X-Generator: Poedit 2.0.7\n"
+
+#. module: project_agile
+#: code:addons/project_agile/models/base.py:43
+#, python-format
+msgid ""
+"%s '%s' is a system record!\n"
+"You are not allowed to delete system record!"
+msgstr ""
+"%s '%s' is a system record!\n"
+"You are not allowed to delete system record!"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.portal_my_task_task_edit
+#: model:ir.ui.view,arch_db:project_agile.portal_my_tasks_task_edit
+msgid "&amp;times;"
+msgstr "&amp;раз;"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.portal_my_task_task_edit
+msgid "<strong>Hours:</strong>"
+msgstr "<strong>Часы:</strong>"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.portal_my_task_task_edit
+msgid "<strong>Priority:</strong>"
+msgstr "<strong>Приоритет:</strong>"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.portal_my_task_task_edit
+msgid "<strong>Subtasks:</strong>"
+msgstr "<strong>Подзадачи:</strong>"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.portal_my_task_task_edit
+msgid "<strong>Type:</strong>"
+msgstr "<strong>Тип:</strong>"
+
+#. module: project_agile
+#: model:project.task.type,name:project_agile.project_task_stage_accepted
+msgid "Accepted"
+msgstr "Accepted"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_report_action_id
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_report_action_id
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_team_report_action_id
+msgid "Action"
+msgstr "Действие"
+
+#. module: project_agile
+#: model:project.task.type,name:project_agile.project_task_stage_actionable
+msgid "Actionable"
+msgstr "Actionable"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_code_item_active
+#: model:ir.model.fields,field_description:project_agile.field_project_task_priority_active
+#: model:ir.model.fields,field_description:project_agile.field_project_task_resolution_active
+#: model:ir.model.fields,field_description:project_agile.field_project_task_type2_active
+#: model:ir.model.fields,field_description:project_agile.field_project_type_active
+msgid "Active"
+msgstr "Актив"
+
+#. module: project_agile
+#: model:ir.actions.act_window,name:project_agile.launch_task_link_wizard
+msgid "Add Link"
+msgstr "Добавить ссылку"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.view_task_form2
+msgid "Add Sub-Task"
+msgstr "Добавить подзадачу"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.view_task_form2
+msgid "Add Worklog"
+msgstr "Запись в журнал"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.project_task_link_wizard
+msgid "Add link"
+msgstr "Добавить ссылку"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.view_task_form2
+msgid "Add new link"
+msgstr "Добавить новую ссылку"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.agile_board_form
+msgid "Advanced"
+msgstr "Расширенный"
+
+#. module: project_agile
+#: model:ir.module.category,name:project_agile.module_category_agile_scrum
+#: model:ir.ui.menu,name:project_agile.project_agile_menu
+#: model:ir.ui.view,arch_db:project_agile.view_project_project_filter_extend_with_key
+msgid "Agile"
+msgstr "Agile"
+
+#. module: project_agile
+#: model:res.groups,name:project_agile.group_agile_scrum_admin
+msgid "Agile Admin"
+msgstr "Agile Admin"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.project_agile_board_export_wizard_form
+msgid "Agile Baord has been exported and now you can download it from here:"
+msgstr "Agile Baord has been exported and now you can download it from here:"
+
+#. module: project_agile
+#: model:ir.model,name:project_agile.model_project_agile_board
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_export_wizard_board_id
+#: model:ir.ui.view,arch_db:project_agile.agile_board_create_wizard_form
+msgid "Agile Board"
+msgstr "Agile Board"
+
+#. module: project_agile
+#: model:ir.model,name:project_agile.model_project_agile_board_column
+msgid "Agile Board Column"
+msgstr "Agile Board Column"
+
+#. module: project_agile
+#: model:ir.model,name:project_agile.model_project_agile_board_column_status
+msgid "Agile Board Column Status"
+msgstr "Agile Board Column Status"
+
+#. module: project_agile
+#: model:ir.actions.act_window,name:project_agile.agile_board_create_action
+msgid "Agile Board Create Wizard"
+msgstr "Agile Board Create Wizard"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.project_agile_board_export_wizard_form
+msgid "Agile Board Exporter"
+msgstr "Agile Board Exporter"
+
+#. module: project_agile
+#: code:addons/project_agile/models/project_agile_board_reader.py:44
+#, python-format
+msgid "Agile Board File Validation Error: %s"
+msgstr "Agile Board File Validation Error: %s"
+
+#. module: project_agile
+#: model:ir.actions.act_window,name:project_agile.agile_board_import_wizard_action
+msgid "Agile Board Import Wizard"
+msgstr "Agile Board Import Wizard"
+
+#. module: project_agile
+#: model:ir.model,name:project_agile.model_project_agile_board_importer
+#: model:ir.ui.view,arch_db:project_agile.agile_board_import_wizard_form
+msgid "Agile Board Importer"
+msgstr "Agile Board Importer"
+
+#. module: project_agile
+#: model:ir.model,name:project_agile.model_project_agile_board_xml_reader
+msgid "Agile Board Xml Reader"
+msgstr "Agile Board Xml Reader"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.edit_project
+msgid "Agile Boards"
+msgstr "Agile Boards"
+
+#. module: project_agile
+#: model:ir.model,name:project_agile.model_project_agile_code_item
+msgid "Agile Code Item"
+msgstr "Agile Code Item"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_project_agile_method
+#: model:ir.ui.view,arch_db:project_agile.view_project_project_filter_extend_with_key
+msgid "Agile Method"
+msgstr "Agile Method"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_task_agile_order
+msgid "Agile Order"
+msgstr "Agile Order"
+
+#. module: project_agile
+#: model:res.groups,name:project_agile.group_agile_scrum_product_owner
+msgid "Agile Product Owner"
+msgstr "Agile Product Owner"
+
+#. module: project_agile
+#: model:res.groups,name:project_agile.group_agile_scrum_master
+msgid "Agile Scrum Master"
+msgstr "Agile Scrum Master"
+
+#. module: project_agile
+#: model:res.groups,name:project_agile.group_agile_scrum_stake_holder
+msgid "Agile Stake Holder"
+msgstr "Agile Stake Holder"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.view_project_agile_team_form
+#: model:ir.ui.view,arch_db:project_agile.view_project_agile_team_tree
+msgid "Agile Team"
+msgstr "Agile Team"
+
+#. module: project_agile
+#: model:res.groups,name:project_agile.group_project_agile_team_member
+msgid "Agile Team Member"
+msgstr "Agile Team Member"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_project_team_ids
+msgid "Agile Teams"
+msgstr "Agile Teams"
+
+#. module: project_agile
+#: code:addons/project_agile/models/project_agile_board.py:150
+#, python-format
+msgid "Agile method on assigned projects does not match selected board type!"
+msgstr "Agile method on assigned projects does not match selected board type!"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_task_allow_story_points
+#: model:ir.model.fields,field_description:project_agile.field_project_task_type2_allow_story_points
+msgid "Allow Story Points"
+msgstr "Allow Story Points"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_task_type2_allow_sub_tasks
+msgid "Allow Sub-Items"
+msgstr "Allow Sub-Items"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_task_allow_sub_tasks
+msgid "Allow Sub-Tasks"
+msgstr "Allow Sub-Tasks"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_sub_task_add_wizard_type_ids
+#: model:ir.model.fields,field_description:project_agile.field_project_task_type_ids
+msgid "Allowed Subtypes"
+msgstr "Allowed Subtypes"
+
+#. module: project_agile
+#: model:ir.model,name:project_agile.model_account_analytic_line
+msgid "Analytic Line"
+msgstr "Позиция аналитики"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.project_task_type2_form
+msgid "Apply portal status"
+msgstr "Apply portal status"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.project_task_type2_form
+msgid "Apply portal visibility to all related tasks"
+msgstr "Apply portal visibility to all related tasks"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_task_assigned_to_me
+msgid "Assigned to Me"
+msgstr "Assigned to Me"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_sub_task_add_wizard_user_id
+msgid "Assignee"
+msgstr "Assignee"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_backlog_task_type_ids
+msgid "Backlog Task Types"
+msgstr "Backlog Task Types"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.agile_board_form
+msgid "Backlog Task Types..."
+msgstr "Backlog Task Types..."
+
+#. module: project_agile
+#: model:project.task.type,legend_blocked:project_agile.project_task_stage_accepted
+#: model:project.task.type,legend_blocked:project_agile.project_task_stage_actionable
+#: model:project.task.type,legend_blocked:project_agile.project_task_stage_blocked
+#: model:project.task.type,legend_blocked:project_agile.project_task_stage_close
+#: model:project.task.type,legend_blocked:project_agile.project_task_stage_code_review
+#: model:project.task.type,legend_blocked:project_agile.project_task_stage_deployment
+#: model:project.task.type,legend_blocked:project_agile.project_task_stage_deployment_uat
+#: model:project.task.type,legend_blocked:project_agile.project_task_stage_done
+#: model:project.task.type,legend_blocked:project_agile.project_task_stage_in_progress
+#: model:project.task.type,legend_blocked:project_agile.project_task_stage_in_progress_qa
+#: model:project.task.type,legend_blocked:project_agile.project_task_stage_in_progress_uat_qa
+#: model:project.task.type,legend_blocked:project_agile.project_task_stage_init
+#: model:project.task.type,legend_blocked:project_agile.project_task_stage_integration
+#: model:project.task.type,legend_blocked:project_agile.project_task_stage_open
+#: model:project.task.type,legend_blocked:project_agile.project_task_stage_qa
+#: model:project.task.type,legend_blocked:project_agile.project_task_stage_qa_production
+#: model:project.task.type,legend_blocked:project_agile.project_task_stage_rejected
+#: model:project.task.type,legend_blocked:project_agile.project_task_stage_reopened
+#: model:project.task.type,legend_blocked:project_agile.project_task_stage_resolved
+#: model:project.task.type,legend_blocked:project_agile.project_task_stage_todo
+#: model:project.task.type,legend_blocked:project_agile.project_task_stage_uat_qa
+#: model:project.task.type,legend_blocked:project_agile.project_task_stage_waiting_approval
+#: model:project.task.type,name:project_agile.project_task_stage_blocked
+msgid "Blocked"
+msgstr "Блокировано"
+
+#. module: project_agile
+#: model:ir.actions.act_window,name:project_agile.open_agile_board_form
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_column_board_id
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_column_status_board_id
+msgid "Board"
+msgstr "Board"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.agile_board_form
+msgid "Board Columns"
+msgstr "Board Columns"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_project_boards_count
+msgid "Board Count"
+msgstr "Board Count"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_board_task_type_ids
+msgid "Board Task Types"
+msgstr "Board Task Types"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.agile_board_form
+msgid "Board Task Types..."
+msgstr "Board Task Types..."
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_project_board_ids
+#: model:ir.ui.menu,name:project_agile.project_agile_board_menu_config
+#: model:ir.ui.menu,name:project_agile.project_agile_boards_menu
+msgid "Boards"
+msgstr "Boards"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.agile_board_create_wizard_form
+#: model:ir.ui.view,arch_db:project_agile.agile_board_import_wizard_form
+#: model:ir.ui.view,arch_db:project_agile.agile_project_task_worklog_form
+#: model:ir.ui.view,arch_db:project_agile.portal_my_task_task_edit
+#: model:ir.ui.view,arch_db:project_agile.portal_my_tasks_task_edit
+#: model:ir.ui.view,arch_db:project_agile.project_agile_board_export_wizard_form
+#: model:ir.ui.view,arch_db:project_agile.project_sub_task_wizard
+#: model:ir.ui.view,arch_db:project_agile.project_task_link_wizard
+msgid "Cancel"
+msgstr "Отменить"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.project_agile_board_export_wizard_form
+msgid "Close"
+msgstr "Закрыть"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.view_task_form2_inherited
+msgid "Close - Hide this timesheet from customer portal"
+msgstr "Close - Hide this timesheet from customer portal"
+
+#. module: project_agile
+#: model:project.task.type,name:project_agile.project_task_stage_close
+msgid "Closed"
+msgstr "Closed"
+
+#. module: project_agile
+#: model:project.task.type,name:project_agile.project_task_stage_code_review
+msgid "Code Review"
+msgstr "Code Review"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_column_status_column_id
+msgid "Column"
+msgstr "Column"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.agile_board_form
+msgid "Column Stages"
+msgstr "Column Stages"
+
+#. module: project_agile
+#: sql_constraint:project.agile.board.column.status:0
+msgid "Column state must be unique per board!"
+msgstr "Column state must be unique per board!"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_column_ids
+#: model:ir.ui.view,arch_db:project_agile.agile_board_form
+msgid "Columns"
+msgstr "Columns"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_workflow_state_board_column_status_ids
+msgid "Columns Statuses"
+msgstr "Columns Statuses"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_task_link_add_wizard_comment
+#: model:ir.model.fields,field_description:project_agile.field_project_task_link_comment
+msgid "Comment"
+msgstr "Комментарий"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_task_team_id
+msgid "Committed team"
+msgstr "Committed team"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.portal_my_task_task_edit
+#: model:ir.ui.view,arch_db:project_agile.portal_my_tasks_task_edit
+msgid "Confirm"
+msgstr "Подтвердить"
+
+#. module: project_agile
+#: model:ir.ui.menu,name:project_agile.project_agile_board_wiz_menu
+msgid "Create Board"
+msgstr "Create Board"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.project_sub_task_wizard
+msgid "Create Sub-Task"
+msgstr "Create Sub-Task"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.view_task_form2
+msgid "Created"
+msgstr "Created"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_column_create_uid
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_column_status_create_uid
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_create_uid
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_create_wizard_create_uid
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_export_wizard_create_uid
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_import_wizard_create_uid
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_report_create_uid
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_team_create_uid
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_team_report_create_uid
+#: model:ir.model.fields,field_description:project_agile.field_project_sub_task_add_wizard_create_uid
+#: model:ir.model.fields,field_description:project_agile.field_project_task_link_add_wizard_create_uid
+#: model:ir.model.fields,field_description:project_agile.field_project_task_link_create_uid
+#: model:ir.model.fields,field_description:project_agile.field_project_task_link_relation_create_uid
+#: model:ir.model.fields,field_description:project_agile.field_project_task_priority_create_uid
+#: model:ir.model.fields,field_description:project_agile.field_project_task_resolution_create_uid
+#: model:ir.model.fields,field_description:project_agile.field_project_task_type2_create_uid
+#: model:ir.model.fields,field_description:project_agile.field_project_task_worklog_wizard_create_uid
+#: model:ir.model.fields,field_description:project_agile.field_project_type_create_uid
+#: model:ir.model.fields,field_description:project_agile.field_project_workflow_task_type_create_uid
+msgid "Created by"
+msgstr "Создано"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_column_create_date
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_column_status_create_date
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_create_date
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_create_wizard_create_date
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_export_wizard_create_date
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_import_wizard_create_date
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_report_create_date
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_team_create_date
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_team_report_create_date
+#: model:ir.model.fields,field_description:project_agile.field_project_sub_task_add_wizard_create_date
+#: model:ir.model.fields,field_description:project_agile.field_project_task_link_add_wizard_create_date
+#: model:ir.model.fields,field_description:project_agile.field_project_task_link_create_date
+#: model:ir.model.fields,field_description:project_agile.field_project_task_link_relation_create_date
+#: model:ir.model.fields,field_description:project_agile.field_project_task_priority_create_date
+#: model:ir.model.fields,field_description:project_agile.field_project_task_resolution_create_date
+#: model:ir.model.fields,field_description:project_agile.field_project_task_type2_create_date
+#: model:ir.model.fields,field_description:project_agile.field_project_task_worklog_wizard_create_date
+#: model:ir.model.fields,field_description:project_agile.field_project_type_create_date
+#: model:ir.model.fields,field_description:project_agile.field_project_workflow_task_type_create_date
+msgid "Created on"
+msgstr "Создан"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.portal_my_task_task_edit
+msgid "Current stage of the task"
+msgstr "Текущий этап задачи"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_res_users_team_id
+msgid "Current team"
+msgstr "Current team"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_import_wizard_data
+msgid "Data"
+msgstr "Данные"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_task_worklog_wizard_date
+msgid "Date"
+msgstr "Дата"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.portal_my_task_task_edit
+#: model:ir.ui.view,arch_db:project_agile.portal_my_tasks_task_edit
+msgid "Deadline:"
+msgstr "Deadline:"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.agile_board_form
+msgid "Declare Default"
+msgstr "Declare Default"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_task_type2_default_priority_id
+msgid "Default Task Priority"
+msgstr "Default Task Priority"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_project_default_task_type_id
+#: model:ir.model.fields,field_description:project_agile.field_project_type_default_task_type_id
+#: model:ir.model.fields,field_description:project_agile.field_project_workflow_default_task_type_id
+msgid "Default Task Type"
+msgstr "Default Task Type"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_team_default_hrs
+msgid "Default daily hours"
+msgstr "Default daily hours"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_is_default
+msgid "Default?"
+msgstr "Default?"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.view_task_form2
+msgid "Delete"
+msgstr "Удалить"
+
+#. module: project_agile
+#: model:project.task.type,name:project_agile.project_task_stage_deployment
+msgid "Deployment"
+msgstr "Deployment"
+
+#. module: project_agile
+#: model:project.task.type,name:project_agile.project_task_stage_deployment_uat
+msgid "Deployment UAT"
+msgstr "Deployment UAT"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_description
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_report_description
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_code_item_description
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_report_description
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_team_description
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_team_report_description
+#: model:ir.model.fields,field_description:project_agile.field_project_sub_task_add_wizard_description
+#: model:ir.model.fields,field_description:project_agile.field_project_task_priority_description
+#: model:ir.model.fields,field_description:project_agile.field_project_task_resolution_description
+#: model:ir.model.fields,field_description:project_agile.field_project_task_type2_description
+#: model:ir.model.fields,field_description:project_agile.field_project_task_worklog_wizard_name
+#: model:ir.model.fields,field_description:project_agile.field_project_type_description
+#: model:ir.ui.view,arch_db:project_agile.portal_my_task_task_edit
+#: model:ir.ui.view,arch_db:project_agile.portal_my_tasks_task_edit
+#: model:ir.ui.view,arch_db:project_agile.project_sub_task_wizard
+#: model:ir.ui.view,arch_db:project_agile.project_task_priority_form
+#: model:ir.ui.view,arch_db:project_agile.project_task_type2_form
+#: model:ir.ui.view,arch_db:project_agile.project_type_form
+msgid "Description"
+msgstr "Описание"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.agile_board_form
+msgid "Description..."
+msgstr "Description..."
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_column_display_name
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_column_status_display_name
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_create_wizard_display_name
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_display_name
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_export_wizard_display_name
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_import_wizard_display_name
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_importer_display_name
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_report_display_name
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_xml_reader_display_name
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_xml_writer_display_name
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_code_item_display_name
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_mixin_id_search_display_name
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_report_display_name
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_team_display_name
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_team_report_display_name
+#: model:ir.model.fields,field_description:project_agile.field_project_sub_task_add_wizard_display_name
+#: model:ir.model.fields,field_description:project_agile.field_project_task_link_add_wizard_display_name
+#: model:ir.model.fields,field_description:project_agile.field_project_task_link_display_name
+#: model:ir.model.fields,field_description:project_agile.field_project_task_link_relation_display_name
+#: model:ir.model.fields,field_description:project_agile.field_project_task_priority_display_name
+#: model:ir.model.fields,field_description:project_agile.field_project_task_resolution_display_name
+#: model:ir.model.fields,field_description:project_agile.field_project_task_type2_display_name
+#: model:ir.model.fields,field_description:project_agile.field_project_task_worklog_wizard_display_name
+#: model:ir.model.fields,field_description:project_agile.field_project_type_display_name
+#: model:ir.model.fields,field_description:project_agile.field_project_workflow_task_type_display_name
+msgid "Display Name"
+msgstr "Отображаемое Имя"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.view_task_form2_inherited
+msgid "Display this timesheet on customer portal"
+msgstr "Display this timesheet on customer portal"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.view_task_form2
+msgid "Documents"
+msgstr "Документы"
+
+#. module: project_agile
+#: model:project.task.type,name:project_agile.project_task_stage_done
+msgid "Done"
+msgstr "Done"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_project_done_estimation
+msgid "Done estimation"
+msgstr "Done estimation"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_task_worklog_wizard_duration
+msgid "Duration"
+msgstr "Длительность"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_team_email
+msgid "E-mail"
+msgstr "E-mail"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.portal_my_task_task_edit
+msgid "Edit Task"
+msgstr "Редактировать задачу"
+
+#. module: project_agile
+#: selection:project.agile.board.export.wizard,state:0
+msgid "End"
+msgstr "End"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_res_users_team_ids
+msgid "Enroled in teams"
+msgstr "Enroled in teams"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_task_epic_id
+msgid "Epic"
+msgstr "Epic"
+
+#. module: project_agile
+#: code:addons/project_agile/models/project_project.py:368
+#: model:ir.ui.view,arch_db:project_agile.edit_project
+#: model:ir.ui.view,arch_db:project_agile.view_project_kanban
+#, python-format
+msgid "Epics"
+msgstr "Epics"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_project_epics_count
+msgid "Epics Count"
+msgstr "Epics Count"
+
+#. module: project_agile
+#: selection:project.agile.board.column,notification_level:0
+msgid "Error"
+msgstr "Error"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_sub_task_add_wizard_story_points
+msgid "Estimate"
+msgstr "Estimate"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.view_task_search_form
+msgid "Exclude Sub-Tasks"
+msgstr "Exclude Sub-Tasks"
+
+#. module: project_agile
+#: model:ir.ui.menu,name:project_agile.project_agile_board_menu_export
+#: model:ir.ui.view,arch_db:project_agile.agile_board_form
+msgid "Export"
+msgstr "Экспорт"
+
+#. module: project_agile
+#: code:addons/project_agile/models/project_task.py:693
+#, python-format
+msgid "Fields marked with \"*\" are required!"
+msgstr "Fields marked with \"*\" are required!"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_export_wizard_data
+msgid "File"
+msgstr "Файл"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_export_wizard_file_name
+msgid "File Name"
+msgstr "Имя файла"
+
+#. module: project_agile
+#: code:addons/project_agile/models/project_agile_board_reader.py:139
+#, python-format
+msgid "Following states [%] are referenced in the board but are not found in the related workflow!"
+msgstr "Following states [%] are referenced in the board but are not found in the related workflow!"
+
+#. module: project_agile
+#: code:addons/project_agile/models/project_agile_board_reader.py:134
+#, python-format
+msgid "Following states: [%s] are assigned to multiple columns!"
+msgstr "Following states: [%s] are assigned to multiple columns!"
+
+#. module: project_agile
+#: code:addons/project_agile/models/project_agile_board_reader.py:112
+#, python-format
+msgid "Found multiple instances of workflow with name '%s' "
+msgstr "Found multiple instances of workflow with name '%s' "
+
+#. module: project_agile
+#: selection:project.agile.board,visibility:0
+#: selection:project.agile.board.create.wizard,visibility:0
+msgid "Global"
+msgstr "Global"
+
+#. module: project_agile
+#: model:ir.module.category,description:project_agile.module_category_agile_scrum
+msgid "Helps you manage your agile team!"
+msgstr "Helps you manage your agile team!"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.view_task_form2_inherited
+msgid "Hide this timesheet from customer portal"
+msgstr "Hide this timesheet from customer portal"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.portal_my_tasks_task_edit
+msgid "Hours"
+msgstr "Часы"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_column_id
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_column_status_id
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_create_wizard_id
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_export_wizard_id
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_id
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_import_wizard_id
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_importer_id
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_report_id
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_xml_reader_id
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_xml_writer_id
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_code_item_id
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_mixin_id_search_id
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_report_id
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_team_id
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_team_report_id
+#: model:ir.model.fields,field_description:project_agile.field_project_sub_task_add_wizard_id
+#: model:ir.model.fields,field_description:project_agile.field_project_task_link_add_wizard_id
+#: model:ir.model.fields,field_description:project_agile.field_project_task_link_id
+#: model:ir.model.fields,field_description:project_agile.field_project_task_link_relation_id
+#: model:ir.model.fields,field_description:project_agile.field_project_task_priority_id
+#: model:ir.model.fields,field_description:project_agile.field_project_task_resolution_id
+#: model:ir.model.fields,field_description:project_agile.field_project_task_type2_id
+#: model:ir.model.fields,field_description:project_agile.field_project_task_worklog_wizard_id
+#: model:ir.model.fields,field_description:project_agile.field_project_type_id
+#: model:ir.model.fields,field_description:project_agile.field_project_workflow_task_type_id
+msgid "ID"
+msgstr "Номер"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_task_priority_icon
+#: model:ir.model.fields,field_description:project_agile.field_project_task_type2_icon
+msgid "Icon"
+msgstr "Иконка"
+
+#. module: project_agile
+#: model:ir.model.fields,help:project_agile.field_project_project_agile_enabled
+#: model:ir.model.fields,help:project_agile.field_project_task_agile_enabled
+msgid "If checked project will be enabled for agile management"
+msgstr "If checked project will be enabled for agile management"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_team_image
+#: model:ir.model.fields,field_description:project_agile.field_project_project_image
+msgid "Image"
+msgstr "Изображение"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_report_image_url
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_report_image_url
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_team_report_image_url
+msgid "Image Url"
+msgstr "Image Url"
+
+#. module: project_agile
+#: model:ir.ui.menu,name:project_agile.project_agile_board_menu_import
+msgid "Import"
+msgstr "Import"
+
+#. module: project_agile
+#: model:project.task.type,legend_normal:project_agile.project_task_stage_accepted
+#: model:project.task.type,legend_normal:project_agile.project_task_stage_actionable
+#: model:project.task.type,legend_normal:project_agile.project_task_stage_blocked
+#: model:project.task.type,legend_normal:project_agile.project_task_stage_close
+#: model:project.task.type,legend_normal:project_agile.project_task_stage_code_review
+#: model:project.task.type,legend_normal:project_agile.project_task_stage_deployment
+#: model:project.task.type,legend_normal:project_agile.project_task_stage_deployment_uat
+#: model:project.task.type,legend_normal:project_agile.project_task_stage_done
+#: model:project.task.type,legend_normal:project_agile.project_task_stage_in_progress
+#: model:project.task.type,legend_normal:project_agile.project_task_stage_in_progress_qa
+#: model:project.task.type,legend_normal:project_agile.project_task_stage_in_progress_uat_qa
+#: model:project.task.type,legend_normal:project_agile.project_task_stage_init
+#: model:project.task.type,legend_normal:project_agile.project_task_stage_integration
+#: model:project.task.type,legend_normal:project_agile.project_task_stage_open
+#: model:project.task.type,legend_normal:project_agile.project_task_stage_qa
+#: model:project.task.type,legend_normal:project_agile.project_task_stage_qa_production
+#: model:project.task.type,legend_normal:project_agile.project_task_stage_rejected
+#: model:project.task.type,legend_normal:project_agile.project_task_stage_reopened
+#: model:project.task.type,legend_normal:project_agile.project_task_stage_resolved
+#: model:project.task.type,legend_normal:project_agile.project_task_stage_todo
+#: model:project.task.type,legend_normal:project_agile.project_task_stage_uat_qa
+#: model:project.task.type,legend_normal:project_agile.project_task_stage_waiting_approval
+#: model:project.task.type,name:project_agile.project_task_stage_in_progress
+msgid "In Progress"
+msgstr "Выполняется"
+
+#. module: project_agile
+#: model:project.task.type,name:project_agile.project_task_stage_in_progress_qa
+msgid "In Progress QA"
+msgstr "In Progress QA"
+
+#. module: project_agile
+#: model:project.task.type,name:project_agile.project_task_stage_in_progress_uat_qa
+msgid "In Progress UAT QA"
+msgstr "In Progress UAT QA"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_project_in_progress_estimation
+msgid "In progress estimation"
+msgstr "In progress estimation"
+
+#. module: project_agile
+#: model:project.task.type,name:project_agile.project_task_stage_init
+msgid "Init"
+msgstr "Init"
+
+#. module: project_agile
+#: model:project.task.type,name:project_agile.project_task_stage_integration
+msgid "Integration"
+msgstr "Integration"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_workflow_task_type_is_default
+msgid "Is Default?"
+msgstr "Is Default?"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_task_is_epic
+msgid "Is Epic"
+msgstr "Is Epic"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_task_is_user_story
+msgid "Is Story"
+msgstr "Is Story"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_code_item_system
+#: model:ir.model.fields,field_description:project_agile.field_project_task_priority_system
+#: model:ir.model.fields,field_description:project_agile.field_project_task_resolution_system
+#: model:ir.model.fields,field_description:project_agile.field_project_task_type2_system
+#: model:ir.model.fields,field_description:project_agile.field_project_type_system
+msgid "Is System Type"
+msgstr "Is System Type"
+
+#. module: project_agile
+#: selection:project.agile.board,type:0
+#: selection:project.agile.board.create.wizard,type:0
+#: selection:project.agile.board.report,type:0
+#: selection:project.agile.report,type:0 selection:project.agile.team,type:0
+#: selection:project.agile.team.report,type:0
+#: selection:project.project,agile_method:0
+msgid "Kanban"
+msgstr "Kanban"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board___last_update
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_column___last_update
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_column_status___last_update
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_create_wizard___last_update
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_export_wizard___last_update
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_import_wizard___last_update
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_importer___last_update
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_report___last_update
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_xml_reader___last_update
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_xml_writer___last_update
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_code_item___last_update
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_mixin_id_search___last_update
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_report___last_update
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_team___last_update
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_team_report___last_update
+#: model:ir.model.fields,field_description:project_agile.field_project_sub_task_add_wizard___last_update
+#: model:ir.model.fields,field_description:project_agile.field_project_task_link___last_update
+#: model:ir.model.fields,field_description:project_agile.field_project_task_link_add_wizard___last_update
+#: model:ir.model.fields,field_description:project_agile.field_project_task_link_relation___last_update
+#: model:ir.model.fields,field_description:project_agile.field_project_task_priority___last_update
+#: model:ir.model.fields,field_description:project_agile.field_project_task_resolution___last_update
+#: model:ir.model.fields,field_description:project_agile.field_project_task_type2___last_update
+#: model:ir.model.fields,field_description:project_agile.field_project_task_worklog_wizard___last_update
+#: model:ir.model.fields,field_description:project_agile.field_project_type___last_update
+#: model:ir.model.fields,field_description:project_agile.field_project_workflow_task_type___last_update
+msgid "Last Modified on"
+msgstr "Последнее изменение"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_column_status_write_uid
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_column_write_uid
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_create_wizard_write_uid
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_export_wizard_write_uid
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_import_wizard_write_uid
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_report_write_uid
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_write_uid
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_team_report_write_uid
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_team_write_uid
+#: model:ir.model.fields,field_description:project_agile.field_project_sub_task_add_wizard_write_uid
+#: model:ir.model.fields,field_description:project_agile.field_project_task_link_add_wizard_write_uid
+#: model:ir.model.fields,field_description:project_agile.field_project_task_link_relation_write_uid
+#: model:ir.model.fields,field_description:project_agile.field_project_task_link_write_uid
+#: model:ir.model.fields,field_description:project_agile.field_project_task_priority_write_uid
+#: model:ir.model.fields,field_description:project_agile.field_project_task_resolution_write_uid
+#: model:ir.model.fields,field_description:project_agile.field_project_task_type2_write_uid
+#: model:ir.model.fields,field_description:project_agile.field_project_task_worklog_wizard_write_uid
+#: model:ir.model.fields,field_description:project_agile.field_project_type_write_uid
+#: model:ir.model.fields,field_description:project_agile.field_project_workflow_task_type_write_uid
+msgid "Last Updated by"
+msgstr "Последний раз обновил"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_column_status_write_date
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_column_write_date
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_create_wizard_write_date
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_export_wizard_write_date
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_import_wizard_write_date
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_report_write_date
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_write_date
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_team_report_write_date
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_team_write_date
+#: model:ir.model.fields,field_description:project_agile.field_project_sub_task_add_wizard_write_date
+#: model:ir.model.fields,field_description:project_agile.field_project_task_link_add_wizard_write_date
+#: model:ir.model.fields,field_description:project_agile.field_project_task_link_relation_write_date
+#: model:ir.model.fields,field_description:project_agile.field_project_task_link_write_date
+#: model:ir.model.fields,field_description:project_agile.field_project_task_priority_write_date
+#: model:ir.model.fields,field_description:project_agile.field_project_task_resolution_write_date
+#: model:ir.model.fields,field_description:project_agile.field_project_task_type2_write_date
+#: model:ir.model.fields,field_description:project_agile.field_project_task_worklog_wizard_write_date
+#: model:ir.model.fields,field_description:project_agile.field_project_type_write_date
+#: model:ir.model.fields,field_description:project_agile.field_project_workflow_task_type_write_date
+msgid "Last Updated on"
+msgstr "Последнее обновление"
+
+#. module: project_agile
+#: model:ir.model.fields,help:project_agile.field_project_agile_board_column_notification_level
+msgid "Level of notification when the maximum number of issues is exceeded!"
+msgstr "Level of notification when the maximum number of issues is exceeded!"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_task_link_ids
+#: model:ir.ui.view,arch_db:project_agile.view_task_form2
+msgid "Links"
+msgstr "Links"
+
+#. module: project_agile
+#: model:ir.model.fields,help:project_agile.field_project_agile_board_board_task_type_ids
+msgid "List of available task types for active sprint.If left empty task types from registered projects will be used"
+msgstr "List of available task types for active sprint.If left empty task types from registered projects will be used"
+
+#. module: project_agile
+#: model:ir.model.fields,help:project_agile.field_project_agile_board_backlog_task_type_ids
+msgid "List of available task types for this board.If left empty task types from registered projects will be used"
+msgstr "List of available task types for this board.If left empty task types from registered projects will be used"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_column_max
+msgid "Max"
+msgstr "Max"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_team_image_medium
+#: model:ir.model.fields,field_description:project_agile.field_project_project_image_medium
+msgid "Medium-sized image"
+msgstr "Изображение средних размеров"
+
+#. module: project_agile
+#: model:ir.model.fields,help:project_agile.field_project_agile_team_image_medium
+msgid "Medium-sized image of the agile team. It is automatically resized as a 128x128px image, with aspect ratio preserved, only when the image exceeds one of those sizes. Use this field in form views or some kanban views."
+msgstr "Medium-sized image of the agile team. It is automatically resized as a 128x128px image, with aspect ratio preserved, only when the image exceeds one of those sizes. Use this field in form views or some kanban views."
+
+#. module: project_agile
+#: model:ir.model.fields,help:project_agile.field_project_project_image_medium
+msgid "Medium-sized image of the project. It is automatically resized as a 128x128px image, with aspect ratio preserved,only when the image exceeds one of those sizes. Use this field in form views or some kanban views."
+msgstr "Medium-sized image of the project. It is automatically resized as a 128x128px image, with aspect ratio preserved,only when the image exceeds one of those sizes. Use this field in form views or some kanban views."
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_column_min
+msgid "Min"
+msgstr "Min"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_column_min_max_visible
+msgid "Min Max Visible"
+msgstr "Min Max Visible"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.view_project_agile_team_form
+msgid "Mobile:"
+msgstr "Мобильный:"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_column_name
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_column_status_name
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_column_status_stage_id
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_column_status_state_id
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_create_wizard_name
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_name
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_report_name
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_code_item_name
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_report_name
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_team_name
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_team_report_name
+#: model:ir.model.fields,field_description:project_agile.field_project_task_link_name
+#: model:ir.model.fields,field_description:project_agile.field_project_task_link_relation_name
+#: model:ir.model.fields,field_description:project_agile.field_project_task_priority_name
+#: model:ir.model.fields,field_description:project_agile.field_project_task_resolution_name
+#: model:ir.model.fields,field_description:project_agile.field_project_task_type2_name
+#: model:ir.model.fields,field_description:project_agile.field_project_type_name
+#: model:ir.ui.view,arch_db:project_agile.agile_board_form
+#: model:ir.ui.view,arch_db:project_agile.portal_my_task_task_edit
+#: model:ir.ui.view,arch_db:project_agile.view_project_agile_team_form
+msgid "Name"
+msgstr "Название"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.portal_my_tasks_task_edit
+msgid "Name (*)"
+msgstr "Name (*)"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.portal_my_tasks_task_edit
+msgid "New Task"
+msgstr "New Task"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_column_notification_level
+msgid "Notification Level"
+msgstr "Notification Level"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_task_link_count
+msgid "Number of Links"
+msgstr "Number of Links"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_task_task_count
+msgid "Number of SubTasks"
+msgstr "Number of SubTasks"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_task_doc_count
+msgid "Number of documents attached"
+msgstr "Количество прикрепленных документов"
+
+#. module: project_agile
+#: model:project.task.type,name:project_agile.project_task_stage_open
+msgid "Open"
+msgstr "Open"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.view_task_form2_inherited
+msgid "Open - Display this timesheet on customer portal"
+msgstr "Open - Display this timesheet on customer portal"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_column_order
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_column_status_order
+#: model:ir.model.fields,field_description:project_agile.field_project_task_link_relation_sequence
+msgid "Order"
+msgstr "Order"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.view_task_form2
+msgid "Parent"
+msgstr "Parent"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_sub_task_add_wizard_task_id
+msgid "Parent Task"
+msgstr "Задача-предок"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.view_project_agile_team_form
+msgid "Phone:"
+msgstr "Телефон:"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_account_analytic_line_portal_approved_by
+msgid "Portal Approved By"
+msgstr "Portal Approved By"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_account_analytic_line_portal_approved
+msgid "Portal Approved?"
+msgstr "Portal Approved?"
+
+#. module: project_agile
+#: model:res.groups,name:project_agile.group_project_portal_task_create
+msgid "Portal Task Create"
+msgstr "Portal Task Create"
+
+#. module: project_agile
+#: model:res.groups,name:project_agile.group_project_portal_task_edit
+msgid "Portal Task Edit"
+msgstr "Portal Task Edit"
+
+#. module: project_agile
+#: model:res.groups,name:project_agile.group_project_portal_task_timesheet
+msgid "Portal Task View Timesheet"
+msgstr "Portal Task View Timesheet"
+
+#. module: project_agile
+#: model:res.groups,name:project_agile.group_project_portal_task_wkf
+msgid "Portal Task Workflow"
+msgstr "Portal Task Workflow"
+
+#. module: project_agile
+#: model:res.groups,comment:project_agile.group_project_portal_task_create
+#: model:res.groups,comment:project_agile.group_project_portal_task_edit
+#: model:res.groups,comment:project_agile.group_project_portal_task_timesheet
+#: model:res.groups,comment:project_agile.group_project_portal_task_wkf
+msgid ""
+"Portal members have specific access rights (such as record rules and restricted menus).\n"
+"                They usually do not belong to the usual Odoo groups."
+msgstr ""
+"Участники портала имеют определенные права доступа (например, правила записи и ограниченные меню).\n"
+"                 Обычно они не принадлежат к обычным группам Odoo."
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_task_type2_priority_ids
+#: model:ir.ui.view,arch_db:project_agile.project_task_type2_form
+msgid "Priorities"
+msgstr "Priorities"
+
+#. module: project_agile
+#: code:addons/project_agile/controllers/portal.py:18
+#: model:ir.model.fields,field_description:project_agile.field_project_sub_task_add_wizard_priority_id
+#: model:ir.model.fields,field_description:project_agile.field_project_task_priority_id_3511
+#: model:ir.ui.view,arch_db:project_agile.portal_my_task_task_edit
+#: model:ir.ui.view,arch_db:project_agile.portal_my_tasks_task_edit
+#: model:ir.ui.view,arch_db:project_agile.view_task_search_form
+#, python-format
+msgid "Priority"
+msgstr "Приоритет"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.portal_my_tasks_task_edit
+msgid "Priority (*)"
+msgstr "Priority (*)"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.project_task_priority_form
+msgid "Priority Description"
+msgstr "Priority Description"
+
+#. module: project_agile
+#: sql_constraint:project.task.priority:0
+msgid "Priority name already exists"
+msgstr "Priority name already exists"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_team_product_owner_ids
+msgid "Product Owner"
+msgstr "Product Owner"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.view_project_agile_team_form
+msgid "Product Owners"
+msgstr "Product Owners"
+
+#. module: project_agile
+#: model:ir.model,name:project_agile.model_project_project
+#: model:ir.model.fields,field_description:project_agile.field_project_sub_task_add_wizard_project_id
+msgid "Project"
+msgstr "Проект"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.portal_my_tasks_task_edit
+msgid "Project (*)"
+msgstr "Project (*)"
+
+#. module: project_agile
+#: model:ir.actions.act_window,name:project_agile.project_agile_board_export_wizard_action
+msgid "Project Agile Board Export Wizard"
+msgstr "Project Agile Board Export Wizard"
+
+#. module: project_agile
+#: model:ir.actions.act_window,name:project_agile.launch_sub_task_wizard
+#: model:ir.actions.act_window,name:project_agile.project_sub_task_action_window
+msgid "Project Sub-Task"
+msgstr "Project Sub-Task"
+
+#. module: project_agile
+#: model:ir.model,name:project_agile.model_project_sub_task_add_wizard
+msgid "Project Sub-Task Add Wizard"
+msgstr "Project Sub-Task Add Wizard"
+
+#. module: project_agile
+#: model:ir.model,name:project_agile.model_project_task_link_add_wizard
+msgid "Project Task Add Link Wizard"
+msgstr "Project Task Add Link Wizard"
+
+#. module: project_agile
+#: model:ir.actions.act_window,name:project_agile.project_task_link_action_window
+#: model:ir.model,name:project_agile.model_project_task_link
+msgid "Project Task Link"
+msgstr "Project Task Link"
+
+#. module: project_agile
+#: model:ir.model,name:project_agile.model_project_task_link_relation
+msgid "Project Task Link Relation Type"
+msgstr "Project Task Link Relation Type"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.project_task_link_tree_view
+msgid "Project Task Links"
+msgstr "Project Task Links"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_sub_task_add_wizard_project_type_id
+#: model:ir.model.fields,field_description:project_agile.field_project_task_project_type_id
+#: model:ir.ui.view,arch_db:project_agile.view_project_project_filter_extend_with_key
+msgid "Project Type"
+msgstr "Project Type"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_task_type2_project_type_ids
+#: model:ir.ui.menu,name:project_agile.project_type_menu
+#: model:ir.ui.view,arch_db:project_agile.project_task_type2_form
+msgid "Project Types"
+msgstr "Project Types"
+
+#. module: project_agile
+#: model:ir.model,name:project_agile.model_project_workflow
+msgid "Project Workflow"
+msgstr "Project Workflow"
+
+#. module: project_agile
+#: model:ir.model,name:project_agile.model_project_workflow_state
+msgid "Project Workflow State"
+msgstr "Project Workflow State"
+
+#. module: project_agile
+#: model:ir.model,name:project_agile.model_project_workflow_task_type
+msgid "Project Workflow Task Type"
+msgstr "Project Workflow Task Type"
+
+#. module: project_agile
+#: model:ir.model,name:project_agile.model_project_workflow_transition
+msgid "Project Workflow Transition"
+msgstr "Project Workflow Transition"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_project_type_id
+#: model:ir.ui.view,arch_db:project_agile.edit_project
+msgid "Project type"
+msgstr "Project type"
+
+#. module: project_agile
+#: model:ir.actions.act_window,name:project_agile.project_type_action
+msgid "Project types"
+msgstr "Project types"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_create_wizard_project_ids
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_project_ids
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_team_project_ids
+msgid "Projects"
+msgstr "Проекты"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.agile_board_form
+msgid "Projects..."
+msgstr "Projects..."
+
+#. module: project_agile
+#: model:project.task.type,name:project_agile.project_task_stage_qa
+msgid "QA"
+msgstr "QA"
+
+#. module: project_agile
+#: model:project.task.type,name:project_agile.project_task_stage_qa_production
+msgid "QA Production"
+msgstr "QA Production"
+
+#. module: project_agile
+#: model:project.task.type,legend_done:project_agile.project_task_stage_accepted
+#: model:project.task.type,legend_done:project_agile.project_task_stage_actionable
+#: model:project.task.type,legend_done:project_agile.project_task_stage_blocked
+#: model:project.task.type,legend_done:project_agile.project_task_stage_close
+#: model:project.task.type,legend_done:project_agile.project_task_stage_code_review
+#: model:project.task.type,legend_done:project_agile.project_task_stage_deployment
+#: model:project.task.type,legend_done:project_agile.project_task_stage_deployment_uat
+#: model:project.task.type,legend_done:project_agile.project_task_stage_done
+#: model:project.task.type,legend_done:project_agile.project_task_stage_in_progress
+#: model:project.task.type,legend_done:project_agile.project_task_stage_in_progress_qa
+#: model:project.task.type,legend_done:project_agile.project_task_stage_in_progress_uat_qa
+#: model:project.task.type,legend_done:project_agile.project_task_stage_init
+#: model:project.task.type,legend_done:project_agile.project_task_stage_integration
+#: model:project.task.type,legend_done:project_agile.project_task_stage_open
+#: model:project.task.type,legend_done:project_agile.project_task_stage_qa
+#: model:project.task.type,legend_done:project_agile.project_task_stage_qa_production
+#: model:project.task.type,legend_done:project_agile.project_task_stage_rejected
+#: model:project.task.type,legend_done:project_agile.project_task_stage_reopened
+#: model:project.task.type,legend_done:project_agile.project_task_stage_resolved
+#: model:project.task.type,legend_done:project_agile.project_task_stage_todo
+#: model:project.task.type,legend_done:project_agile.project_task_stage_uat_qa
+#: model:project.task.type,legend_done:project_agile.project_task_stage_waiting_approval
+msgid "Ready for Next Stage"
+msgstr "Ready for Next Stage"
+
+#. module: project_agile
+#: model:project.task.type,name:project_agile.project_task_stage_rejected
+msgid "Rejected"
+msgstr "Rejected"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_task_type2_task_ids
+msgid "Related Tasks"
+msgstr "Related Tasks"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_task_link_related_task_id
+msgid "Related task"
+msgstr "Related task"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_task_link_add_wizard_relation_id
+#: model:ir.model.fields,field_description:project_agile.field_project_task_link_relation_id_3450
+#: model:ir.model.fields,field_description:project_agile.field_project_task_link_relation_name_3453
+msgid "Relation"
+msgstr "Relation"
+
+#. module: project_agile
+#: model:project.task.type,name:project_agile.project_task_stage_reopened
+msgid "Reopened"
+msgstr "Reopened"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_report_ids
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_team_report_ids
+msgid "Report"
+msgstr "Report"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.view_task_form2
+msgid "Reported by"
+msgstr "Reported by"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.agile_board_form
+#: model:ir.ui.view,arch_db:project_agile.view_project_agile_team_form
+msgid "Reports"
+msgstr "Reports"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_task_resolution_id_3500
+#: model:ir.model.fields,field_description:project_agile.field_project_workflow_transition_resolution_id
+#: model:ir.model.fields,field_description:project_agile.field_wkf_project_task_confirmation_resolution_id
+#: model:ir.ui.view,arch_db:project_agile.view_task_search_form
+msgid "Resolution"
+msgstr "Resolution"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.project_task_resolution_form
+msgid "Resolution Description"
+msgstr "Resolution Description"
+
+#. module: project_agile
+#: model:project.task.type,name:project_agile.project_task_stage_resolved
+msgid "Resolved"
+msgstr "Resolved"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_task_link_relation_inverse_name
+msgid "Reverse Name"
+msgstr "Reverse Name"
+
+#. module: project_agile
+#: selection:project.agile.board,type:0
+#: selection:project.agile.board.create.wizard,type:0
+#: selection:project.agile.board.report,type:0
+#: selection:project.agile.report,type:0 selection:project.agile.team,type:0
+#: selection:project.agile.team.report,type:0
+#: selection:project.project,agile_method:0
+msgid "Scrum"
+msgstr "Scrum"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_team_member_ids
+msgid "Scrum Members"
+msgstr "Scrum Members"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_code_item_sequence
+#: model:ir.model.fields,field_description:project_agile.field_project_task_priority_sequence
+#: model:ir.model.fields,field_description:project_agile.field_project_task_resolution_sequence
+#: model:ir.model.fields,field_description:project_agile.field_project_task_type2_sequence
+#: model:ir.model.fields,field_description:project_agile.field_project_type_sequence
+msgid "Sequence"
+msgstr "Нумерация"
+
+#. module: project_agile
+#: model:ir.ui.menu,name:project_agile.project_services_menu
+msgid "Services"
+msgstr "Services"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_team_image_small
+#: model:ir.model.fields,field_description:project_agile.field_project_project_image_small
+msgid "Small-sized image"
+msgstr "Маленькое изображение"
+
+#. module: project_agile
+#: model:ir.model.fields,help:project_agile.field_project_agile_team_image_small
+msgid "Small-sized image of the agile team. It is automatically resized as a 64x64px image, with aspect ratio preserved. Use this field anywhere a small image is required."
+msgstr "Small-sized image of the agile team. It is automatically resized as a 64x64px image, with aspect ratio preserved. Use this field anywhere a small image is required."
+
+#. module: project_agile
+#: model:ir.model.fields,help:project_agile.field_project_project_image_small
+msgid "Small-sized image of the project. It is automatically resized as a 64x64px image, with aspect ratio preserved. Use this field anywhere a small image is required."
+msgstr "Small-sized image of the project. It is automatically resized as a 64x64px image, with aspect ratio preserved. Use this field anywhere a small image is required."
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.portal_my_task_task_edit
+msgid "Stage"
+msgstr "Этап"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.edit_project
+msgid "Stages"
+msgstr "Stages"
+
+#. module: project_agile
+#: selection:project.agile.board.export.wizard,state:0
+msgid "Start"
+msgstr "Start"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_export_wizard_state
+msgid "State"
+msgstr "Регион"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_column_status_ids
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_status_ids
+msgid "Statuses"
+msgstr "Statuses"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_task_story_points
+msgid "Story points"
+msgstr "Story points"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_task_type2_type_ids
+#: model:ir.ui.view,arch_db:project_agile.project_task_type2_form
+msgid "Sub Types"
+msgstr "Sub Types"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_sub_task_add_wizard_type_id
+msgid "Sub-Task Type"
+msgstr "Sub-Task Type"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.view_task_form2
+msgid "Sub-Tasks"
+msgstr "Sub-Tasks"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_sub_task_add_wizard_subject
+msgid "Subject"
+msgstr "Тема"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_sub_task_add_wizard_tag_ids
+msgid "Tags"
+msgstr "Теги"
+
+#. module: project_agile
+#: model:ir.model,name:project_agile.model_project_task
+#: model:ir.model.fields,field_description:project_agile.field_project_task_worklog_wizard_task_id
+#: model:ir.ui.view,arch_db:project_agile.portal_my_task_task_edit
+msgid "Task"
+msgstr "Задача"
+
+#. module: project_agile
+#: model:ir.actions.act_window,name:project_agile.open_task_priority_form
+#: model:ir.ui.menu,name:project_agile.project_task_priority_menu
+#: model:ir.ui.view,arch_db:project_agile.project_task_type2_form
+msgid "Task Priorities"
+msgstr "Task Priorities"
+
+#. module: project_agile
+#: model:ir.model,name:project_agile.model_project_task_priority
+msgid "Task Priority"
+msgstr "Task Priority"
+
+#. module: project_agile
+#: model:ir.model,name:project_agile.model_project_task_resolution
+msgid "Task Resolution"
+msgstr "Task Resolution"
+
+#. module: project_agile
+#: model:ir.actions.act_window,name:project_agile.open_task_resolution_form
+#: model:ir.ui.menu,name:project_agile.project_task_resolution_menu
+msgid "Task Resolutions"
+msgstr "Task Resolutions"
+
+#. module: project_agile
+#: model:ir.model,name:project_agile.model_project_task_type2
+#: model:ir.model.fields,field_description:project_agile.field_project_workflow_task_type_type_id
+#: model:ir.ui.view,arch_db:project_agile.project_task_type2_form
+msgid "Task Type"
+msgstr "Task Type"
+
+#. module: project_agile
+#: model:ir.actions.act_window,name:project_agile.open_task_type2_form
+#: model:ir.model.fields,field_description:project_agile.field_project_type_task_type_ids
+#: model:ir.model.fields,field_description:project_agile.field_project_workflow_task_type_ids
+#: model:ir.ui.menu,name:project_agile.project_task_type2_menu
+#: model:ir.ui.view,arch_db:project_agile.edit_project_workflow
+#: model:ir.ui.view,arch_db:project_agile.project_task_priority_form
+#: model:ir.ui.view,arch_db:project_agile.project_type_form
+#: model:ir.ui.view,arch_db:project_agile.view_task_type2_search_form
+msgid "Task Types"
+msgstr "Task Types"
+
+#. module: project_agile
+#: model:ir.actions.act_window,name:project_agile.agile_project_task_worklog_action
+msgid "Task Worklog"
+msgstr "Task Worklog"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_task_link_add_wizard_task_left_id
+#: model:ir.model.fields,field_description:project_agile.field_project_task_link_task_left_id
+msgid "Task on the left"
+msgstr "Task on the left"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_task_link_add_wizard_task_right_id
+#: model:ir.model.fields,field_description:project_agile.field_project_task_link_task_right_id
+msgid "Task on the right"
+msgstr "Task on the right"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_type_stage_ids
+msgid "Tasks Stages"
+msgstr "Шаги задания"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_create_wizard_team_id
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_team_id
+#: selection:project.agile.board,visibility:0
+#: selection:project.agile.board.create.wizard,visibility:0
+msgid "Team"
+msgstr "Team"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.view_project_agile_team_form
+msgid "Team Members"
+msgstr "Team Members"
+
+#. module: project_agile
+#: model:ir.model.fields,help:project_agile.field_project_agile_board_create_wizard_team_id
+#: model:ir.model.fields,help:project_agile.field_project_agile_board_team_id
+msgid "Team which owns this board"
+msgstr "Team which owns this board"
+
+#. module: project_agile
+#: model:ir.actions.act_window,name:project_agile.action_project_agile_team
+#: model:ir.ui.menu,name:project_agile.project_agile_team_menu
+#: model:ir.ui.view,arch_db:project_agile.edit_project
+msgid "Teams"
+msgstr "Teams"
+
+#. module: project_agile
+#: model:ir.model.fields,help:project_agile.field_project_agile_board_column_max
+msgid "The maximum number of issues int this column"
+msgstr "The maximum number of issues int this column"
+
+#. module: project_agile
+#: model:ir.model.fields,help:project_agile.field_project_agile_board_column_min
+msgid "The minimum number of issues in this column"
+msgstr "The minimum number of issues in this column"
+
+#. module: project_agile
+#: sql_constraint:project.type:0
+msgid "The name must be unique"
+msgstr "The name must be unique"
+
+#. module: project_agile
+#: sql_constraint:project.agile.board.column:0
+msgid "The name of the column must be unique per board"
+msgstr "The name of the column must be unique per board"
+
+#. module: project_agile
+#: model:ir.model.fields,help:project_agile.field_project_task_portal_visible
+msgid "This field enables you to override settings from task type and display this task on portal"
+msgstr "This field enables you to override settings from task type and display this task on portal"
+
+#. module: project_agile
+#: model:ir.model.fields,help:project_agile.field_project_agile_team_image
+msgid "This field holds the image used as image for the agile team, limited to 1024x1024px."
+msgstr "This field holds the image used as image for the agile team, limited to 1024x1024px."
+
+#. module: project_agile
+#: model:ir.model.fields,help:project_agile.field_project_project_image
+msgid "This field holds the image used as image for the project, limited to 1024x1024px."
+msgstr "This field holds the image used as image for the project, limited to 1024x1024px."
+
+#. module: project_agile
+#: model:ir.model.fields,help:project_agile.field_project_task_epic_id
+msgid "This field represents the first"
+msgstr "This field represents the first"
+
+#. module: project_agile
+#: model:project.task.type,description:project_agile.project_task_stage_in_progress_uat_qa
+msgid "This means that QA is testing this task on UAT environment."
+msgstr "This means that QA is testing this task on UAT environment."
+
+#. module: project_agile
+#: model:project.task.type,description:project_agile.project_task_stage_in_progress_qa
+msgid "This means that QA is working on this task."
+msgstr "This means that QA is working on this task."
+
+#. module: project_agile
+#: model:project.task.type,description:project_agile.project_task_stage_blocked
+msgid "This means that on this task could not be worked anymore due the missing information or similar."
+msgstr "This means that on this task could not be worked anymore due the missing information or similar."
+
+#. module: project_agile
+#: model:project.task.type,description:project_agile.project_task_stage_code_review
+msgid "This means that on this task requires code review."
+msgstr "This means that on this task requires code review."
+
+#. module: project_agile
+#: model:project.task.type,description:project_agile.project_task_stage_integration
+msgid "This means that on this task requires integration testing (i.e. Unit Testing)."
+msgstr "This means that on this task requires integration testing (i.e. Unit Testing)."
+
+#. module: project_agile
+#: model:project.task.type,description:project_agile.project_task_stage_reopened
+msgid "This means that the task has been reopened for some reason."
+msgstr "This means that the task has been reopened for some reason."
+
+#. module: project_agile
+#: model:project.task.type,description:project_agile.project_task_stage_deployment_uat
+msgid "This means that the task is ready to be deployed on UAT."
+msgstr "This means that the task is ready to be deployed on UAT."
+
+#. module: project_agile
+#: model:project.task.type,description:project_agile.project_task_stage_uat_qa
+msgid "This means that the task is ready to be tested on UAT."
+msgstr "This means that the task is ready to be tested on UAT."
+
+#. module: project_agile
+#: model:project.task.type,description:project_agile.project_task_stage_qa
+msgid "This means that this task is ready for QA"
+msgstr "This means that this task is ready for QA"
+
+#. module: project_agile
+#: model:project.task.type,description:project_agile.project_task_stage_resolved
+msgid "This stage means that a task has been successfully test on UAT."
+msgstr "This stage means that a task has been successfully test on UAT."
+
+#. module: project_agile
+#: model:project.task.type,description:project_agile.project_task_stage_deployment
+msgid "This stage means that a task is ready to be deployed to production."
+msgstr "This stage means that a task is ready to be deployed to production."
+
+#. module: project_agile
+#: model:project.task.type,description:project_agile.project_task_stage_qa_production
+msgid "This stage means that a ticket has been deployed to production and it's waiting to be verified on production if possible.."
+msgstr "This stage means that a ticket has been deployed to production and it's waiting to be verified on production if possible.."
+
+#. module: project_agile
+#: model:project.task.type,description:project_agile.project_task_stage_open
+msgid "This stage means that it can be worked on this task."
+msgstr "This stage means that it can be worked on this task."
+
+#. module: project_agile
+#: model:project.task.type,description:project_agile.project_task_stage_in_progress
+msgid "This stage means that on this task is been actively worked on."
+msgstr "This stage means that on this task is been actively worked on."
+
+#. module: project_agile
+#: model:project.task.type,description:project_agile.project_task_stage_actionable
+msgid "This stage means that the task definition has been completed and that it's ready for review by project manager."
+msgstr "This stage means that the task definition has been completed and that it's ready for review by project manager."
+
+#. module: project_agile
+#: model:project.task.type,description:project_agile.project_task_stage_accepted
+msgid "This stage means that the task has been accepted by the project manager"
+msgstr "This stage means that the task has been accepted by the project manager"
+
+#. module: project_agile
+#: model:project.task.type,description:project_agile.project_task_stage_done
+msgid "This stage means that the task has been completed."
+msgstr "This stage means that the task has been completed."
+
+#. module: project_agile
+#: model:project.task.type,description:project_agile.project_task_stage_rejected
+msgid "This stage means that the task has been rejected."
+msgstr "This stage means that the task has been rejected."
+
+#. module: project_agile
+#: model:project.task.type,description:project_agile.project_task_stage_init
+msgid "This stage means that the task is under construction. It should be ignored until reporter says otherwise."
+msgstr "This stage means that the task is under construction. It should be ignored until reporter says otherwise."
+
+#. module: project_agile
+#: model:project.task.type,description:project_agile.project_task_stage_waiting_approval
+msgid "This stage means that the task is waiting for a \"green light\" to be worked on."
+msgstr "This stage means that the task is waiting for a \"green light\" to be worked on."
+
+#. module: project_agile
+#: model:project.task.type,description:project_agile.project_task_stage_todo
+msgid "This stage means that the task is waiting on TODO list to be picked up for work."
+msgstr "This stage means that the task is waiting on TODO list to be picked up for work."
+
+#. module: project_agile
+#: model:project.task.type,description:project_agile.project_task_stage_close
+msgid "This stage means that this task is closed."
+msgstr "This stage means that this task is closed."
+
+#. module: project_agile
+#: model:project.task.type,name:project_agile.project_task_stage_todo
+msgid "ToDo"
+msgstr "ToDo"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_project_todo_estimation
+msgid "Todo estimation"
+msgstr "Todo estimation"
+
+#. module: project_agile
+#: code:addons/project_agile/controllers/portal.py:17
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_create_wizard_type
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_report_type
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_type
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_report_type
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_team_report_type
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_team_type
+#: model:ir.model.fields,field_description:project_agile.field_project_task_type_id_3497
+#: model:ir.ui.view,arch_db:project_agile.portal_my_task_task_edit
+#: model:ir.ui.view,arch_db:project_agile.portal_my_tasks_task_edit
+#: model:ir.ui.view,arch_db:project_agile.view_project_project_filter_extend_with_key
+#: model:ir.ui.view,arch_db:project_agile.view_task_search_form
+#, python-format
+msgid "Type"
+msgstr "Тип"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.portal_my_tasks_task_edit
+msgid "Type (*)"
+msgstr "Type (*)"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_task_priority_type_ids
+#: model:ir.ui.view,arch_db:project_agile.view_task_type2_search_form
+msgid "Types"
+msgstr "Types"
+
+#. module: project_agile
+#: model:project.task.type,name:project_agile.project_task_stage_uat_qa
+msgid "UAT QA"
+msgstr "UAT QA"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_unmapped_state_ids
+msgid "Unmapped State"
+msgstr "Unmapped State"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.agile_board_form
+msgid "Unmapped States"
+msgstr "Unmapped States"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_unmapped_task_stage_ids
+msgid "Unmapped Task Stage"
+msgstr "Unmapped Task Stage"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.view_task_form2
+msgid "Updated"
+msgstr "Updated"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_project_agile_enabled
+#: model:ir.model.fields,field_description:project_agile.field_project_task_agile_enabled
+msgid "Use Agile"
+msgstr "Use Agile"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_create_wizard_user_id
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_user_id
+#: model:ir.model.fields,field_description:project_agile.field_project_task_worklog_wizard_user_id
+#: selection:project.agile.board,visibility:0
+#: selection:project.agile.board.create.wizard,visibility:0
+msgid "User"
+msgstr "Пользователь"
+
+#. module: project_agile
+#: code:addons/project_agile/models/project_project.py:339
+#: model:ir.ui.view,arch_db:project_agile.edit_project
+#: model:ir.ui.view,arch_db:project_agile.view_project_kanban
+#, python-format
+msgid "User Stories"
+msgstr "User Stories"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_project_user_story_count
+msgid "User Story Count"
+msgstr "User Story Count"
+
+#. module: project_agile
+#: model:ir.model.fields,help:project_agile.field_project_agile_board_create_wizard_user_id
+#: model:ir.model.fields,help:project_agile.field_project_agile_board_user_id
+msgid "User which owns this board"
+msgstr "User which owns this board"
+
+#. module: project_agile
+#: model:ir.model,name:project_agile.model_res_users
+msgid "Users"
+msgstr "Пользователи"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.view_task_form2
+msgid "View Linked Task"
+msgstr "View Linked Task"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.view_task_form2
+msgid "View Sub-Task"
+msgstr "View Sub-Task"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_create_wizard_visibility
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_visibility
+msgid "Visibility"
+msgstr "Visibility"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_task_portal_visible
+#: model:ir.model.fields,field_description:project_agile.field_project_task_type2_portal_visible
+msgid "Visible on Portal"
+msgstr "Visible on Portal"
+
+#. module: project_agile
+#: model:project.task.type,name:project_agile.project_task_stage_waiting_approval
+msgid "Waiting Approval"
+msgstr "Waiting Approval"
+
+#. module: project_agile
+#: selection:project.agile.board.column,notification_level:0
+msgid "Warning"
+msgstr "Warning"
+
+#. module: project_agile
+#: model:ir.actions.act_window,help:project_agile.action_project_agile_team
+msgid "With this view you can create your agile teams."
+msgstr "With this view you can create your agile teams."
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_column_status_workflow_id
+#: model:ir.model.fields,field_description:project_agile.field_project_type_workflow_id
+#: model:ir.model.fields,field_description:project_agile.field_project_workflow_task_type_workflow_id
+msgid "Workflow"
+msgstr "Workflow"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_column_status_workflow_stage_ids
+msgid "Workflow Stage"
+msgstr "Workflow Stage"
+
+#. module: project_agile
+#: model:ir.model.fields,help:project_agile.field_project_type_workflow_id
+msgid "Workflow which will be used as a default project workflow"
+msgstr "Workflow which will be used as a default project workflow"
+
+#. module: project_agile
+#: code:addons/project_agile/models/project_agile_board_reader.py:107
+#, python-format
+msgid "Workflow with name '%s' could not be found in database"
+msgstr "Workflow with name '%s' could not be found in database"
+
+#. module: project_agile
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_column_status_workflow_ids
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_column_workflow_ids
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_create_wizard_workflow_ids
+#: model:ir.model.fields,field_description:project_agile.field_project_agile_board_workflow_ids
+msgid "Workflows"
+msgstr "Workflows"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.agile_project_task_worklog_form
+msgid "Worklog"
+msgstr "Worklog"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.agile_project_task_worklog_form
+msgid "Worklog Description"
+msgstr "Worklog Description"
+
+#. module: project_agile
+#: model:ir.model,name:project_agile.model_project_agile_board_xml_writer
+msgid "Xml agile board xml writer"
+msgstr "Xml agile board xml writer"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.portal_my_task_task_edit
+#: model:ir.ui.view,arch_db:project_agile.portal_my_tasks_task_edit
+msgid "YYYY-MM-DD"
+msgstr "YYYY-MM-DD"
+
+#. module: project_agile
+#: code:addons/project_agile/models/res_users.py:55
+#, python-format
+msgid "You are allowed only to change current team for yourself"
+msgstr "You are allowed only to change current team for yourself"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.agile_board_create_wizard_form
+msgid "_Apply"
+msgstr "_Apply"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.project_agile_board_export_wizard_form
+msgid "_Export"
+msgstr "_Export"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.agile_board_import_wizard_form
+msgid "_Import"
+msgstr "_Импорт"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.agile_project_task_worklog_form
+msgid "_Sumbit"
+msgstr "_Sumbit"
+
+#. module: project_agile
+#: model:ir.ui.view,arch_db:project_agile.portal_my_tasks_task_edit
+msgid "or"
+msgstr "or"
+
+#. module: project_agile
+#: model:ir.model,name:project_agile.model_project_agile_board_create_wizard
+msgid "project.agile.board.create.wizard"
+msgstr "project.agile.board.create.wizard"
+
+#. module: project_agile
+#: model:ir.model,name:project_agile.model_project_agile_board_export_wizard
+msgid "project.agile.board.export.wizard"
+msgstr "project.agile.board.export.wizard"
+
+#. module: project_agile
+#: model:ir.model,name:project_agile.model_project_agile_board_import_wizard
+msgid "project.agile.board.import.wizard"
+msgstr "project.agile.board.import.wizard"
+
+#. module: project_agile
+#: model:ir.model,name:project_agile.model_project_agile_board_report
+msgid "project.agile.board.report"
+msgstr "project.agile.board.report"
+
+#. module: project_agile
+#: model:ir.model,name:project_agile.model_project_agile_mixin_id_search
+msgid "project.agile.mixin.id_search"
+msgstr "project.agile.mixin.id_search"
+
+#. module: project_agile
+#: model:ir.model,name:project_agile.model_project_agile_report
+msgid "project.agile.report"
+msgstr "project.agile.report"
+
+#. module: project_agile
+#: model:ir.model,name:project_agile.model_project_agile_team
+msgid "project.agile.team"
+msgstr "project.agile.team"
+
+#. module: project_agile
+#: model:ir.model,name:project_agile.model_project_agile_team_report
+msgid "project.agile.team.report"
+msgstr "project.agile.team.report"
+
+#. module: project_agile
+#: model:ir.model,name:project_agile.model_project_task_worklog_wizard
+msgid "project.task.worklog.wizard"
+msgstr "project.task.worklog.wizard"
+
+#. module: project_agile
+#: model:ir.model,name:project_agile.model_project_type
+msgid "project.type"
+msgstr "project.type"
+
+#. module: project_agile
+#: model:ir.model,name:project_agile.model_project_workflow_publisher
+msgid "project.workflow.publisher"
+msgstr "project.workflow.publisher"
+
+#. module: project_agile
+#: model:ir.model,name:project_agile.model_wkf_project_task_confirmation
+msgid "wkf.project.task.confirmation"
+msgstr "wkf.project.task.confirmation"
