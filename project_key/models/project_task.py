@@ -17,6 +17,17 @@ class Task(models.Model):
         index=True,
     )
 
+    prefix = fields.Char(
+        string='Task prefix',
+        compute='_compute_task_prefix',
+        store=True
+    )
+    number = fields.Integer(
+        string='Task number',
+        compute='_compute_task_number',
+        store=True
+    )
+
     url = fields.Char(
         string='URL',
         compute="_compute_task_url",
@@ -99,3 +110,43 @@ class Task(models.Model):
             result.append((record.id, " - ".join(task_name)))
 
         return result
+
+    @api.multi
+    @api.depends('project_id')
+    def _compute_task_prefix(self):
+        for rec in self:
+            if rec.project_id:
+                rec.prefix = rec.project_id.key
+
+    @api.multi
+    @api.depends('key', 'project_id')
+    def _compute_task_number(self):
+        for rec in self:
+            if rec.prefix:
+                rec.number = int(rec.key.replace('%s-' % rec.prefix, ''))
+
+    def _generate_order_by(self, order_spec, query):
+        '''
+        replace sort field, if sort by key.
+        replace on sort by prefix, number
+        '''
+        new_order_spec = order_spec
+        if order_spec:
+            fields = []
+            for order_part in order_spec.split(','):
+                order_split = order_part.strip().split(' ')
+                order_field = order_split[0].strip()
+                order_direction = order_split[1].strip().upper() if len(order_split) == 2 else ''
+                fields.append((order_field, order_direction))
+
+            key_field = [x for x in fields if x[0] == 'key']
+            if key_field:
+                direction = key_field[0][1]
+                fields.remove(key_field[0])
+                fields.extend([('prefix', direction), ('number', direction)])
+
+            fields = map(lambda x: ' '.join(x), fields)
+            new_order_spec = ','.join(fields)
+
+        order_by = super(Task, self)._generate_order_by(new_order_spec, query)
+        return order_by

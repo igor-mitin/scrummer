@@ -45,7 +45,7 @@
         <xpath expr="//div[@t-if='tasks']//thead//th[@class='col-md-10']" position="after">
             <th>Type</th>
             <th>Priority</th>
-            <th>Hours</th>
+            <th groups="project_agile.group_project_portal_task_panned_hours">Hours</th>
         </xpath>
 
         <xpath expr="//div[@t-if='tasks']//span[@t-field='task.name']" position="after">
@@ -61,7 +61,7 @@
                      data-toggle="tooltip" data-placement="top" t-att-title="task.priority_id.name"
                      data-delay='{"show":"0", "hide":"0"}'/>
             </td>
-            <td>
+            <td groups="project_agile.group_project_portal_task_panned_hours">
                 <span t-field="task.planned_hours"/>
             </td>
         </xpath>
@@ -235,7 +235,7 @@
                          t-att-src="'data:image/png;base64,%s' % to_text(task.priority_id.icon)"/>
                     <span t-field="task.priority_id.name"/>
                 </div>
-                <div class="mb8">
+                <div class="mb8" groups="project_agile.group_project_portal_task_panned_hours">
                     <strong>Hours:</strong>
                     <span t-field="task.planned_hours"/>
                 </div>
