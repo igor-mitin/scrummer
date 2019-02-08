@@ -3,6 +3,8 @@
 
 from odoo import models, fields, api
 
+PROJECT_HUMAN_URL_TEMPLATE = '/scrummer/browse/%s'
+
 
 class ProjectType(models.Model):
     _inherit = "project.type"
@@ -26,6 +28,13 @@ class Project(models.Model):
         comodel_name='project.task.type2',
         scrummer=True
     )
+
+    human_url = fields.Char(scrummer=True, _compute='_compute_project_human_url')
+
+    @api.multi
+    def _compute_project_human_url(self):
+        for prj in self:
+            prj.human_url = PROJECT_HUMAN_URL_TEMPLATE % prj.key
 
     @api.multi
     def open_in_scrummer(self):

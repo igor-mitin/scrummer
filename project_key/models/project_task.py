@@ -5,6 +5,7 @@ from odoo import models, fields, api
 from odoo.osv import expression
 
 TASK_URL = "/web#id=%s&view_type=form&model=project.task&action=%s"
+TASK_HUMAN_URL_TEMPLATE = '/web/browse/%s'
 
 
 class Task(models.Model):
@@ -33,6 +34,11 @@ class Task(models.Model):
         compute="_compute_task_url",
     )
 
+    human_url = fields.Char(
+        string='Human URL',
+        compute="_compute_task_human_url",
+    )
+
     _sql_constraints = [
         ("task_key_unique", "UNIQUE(key)", "Task key must be unique!")
     ]
@@ -42,6 +48,11 @@ class Task(models.Model):
         task_action = self.env.ref('project.action_view_task')
         for task in self:
             task.url = TASK_URL % (task.id, task_action.id)
+
+    @api.multi
+    def _compute_task_human_url(self):
+        for task in self:
+            task.human_url = TASK_HUMAN_URL_TEMPLATE % task.key
 
     @api.model
     @api.returns('self', lambda value: value.id)

@@ -13,6 +13,7 @@
         "project",
     ],
     "data": [
+        "views/project_key_assets.xml",
         "views/project_key_views.xml",
         "views/project_portal_templates.xml"
     ],

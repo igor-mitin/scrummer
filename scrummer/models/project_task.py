@@ -3,6 +3,8 @@
 
 from odoo import models, fields, api
 
+TASK_HUMAN_URL_TEMPLATE = "/scrummer/browse/%s"
+
 
 class TaskResolution(models.Model):
     _inherit = 'project.task.resolution'
@@ -80,6 +82,7 @@ class Task(models.Model):
 
     name = fields.Char(scrummer=True)
     key = fields.Char(scrummer=True)
+    human_url = fields.Char(scrummer=True)
     effective_hours = fields.Float(scrummer=True)
     planned_hours = fields.Float(scrummer=True)
     description = fields.Html(scrummer=True)
@@ -209,6 +212,11 @@ class Task(models.Model):
         related="priority_id.scrummer_icon_color",
         scrummer=True,
     )
+
+    @api.multi
+    def _compute_task_human_url(self):
+        for task in self:
+            task.human_url = TASK_HUMAN_URL_TEMPLATE % task.key
 
     @api.multi
     def open_in_scrummer(self):

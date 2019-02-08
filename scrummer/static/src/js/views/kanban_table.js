@@ -339,7 +339,8 @@ odoo.define('scrummer.view.kanban_table', function (require) {
         },
         start() {
             this.$(".task-key").unbind("click");
-            this.$(".task-key").click(() => {
+            this.$(".task-key").click(ev => {
+                ev.preventDefault();
                 this.trigger_up("open_task", {id: this.task.id});
             });
             return this._super();

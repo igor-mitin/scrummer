@@ -8,9 +8,9 @@
         <li class="collection-item project-list-item">
             <div class="project-item-left">
                 <div class="project-image-wrapper">
-                    <a class="project-key"><img t-attf-src="{{widget.image_url()}}" alt="" class="circle" /></a>
+                    <a class="project-key" t-attf-href="{{widget.record.human_url}}"><img t-attf-src="{{widget.image_url()}}" alt="" class="circle" /></a>
                 </div>
-                <a class="project-key"><t t-esc="widget.record.key"/></a> <t t-esc="widget.record.name"/>
+                <a class="project-key" t-attf-href="{{widget.record.human_url}}"><t t-esc="widget.record.key"/></a> <t t-esc="widget.record.name"/>
             </div>
             <div class="project-item-right">
                 <div class="estimates">

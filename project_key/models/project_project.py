@@ -4,6 +4,8 @@
 from odoo import models, fields, api, _
 from odoo.osv import expression
 
+PROJECT_HUMAN_URL_TEMPLATE = '/web/browse/%s'
+
 
 class ProjectProject(models.Model):
     _inherit = "project.project"
@@ -21,9 +23,19 @@ class ProjectProject(models.Model):
         index=True,
     )
 
+    human_url = fields.Char(
+        string='Human URL',
+        compute="_compute_project_human_url",
+    )
+
     _sql_constraints = [
         ("project_key_unique", "UNIQUE(key)", "Project key must be unique!")
     ]
+
+    @api.multi
+    def _compute_project_human_url(self):
+        for prj in self:
+            prj.human_url = PROJECT_HUMAN_URL_TEMPLATE % prj.key
 
     @api.multi
     @api.onchange('name')

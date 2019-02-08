@@ -30,6 +30,7 @@ odoo.define('scrummer.page.dashboard', function (require) {
                     "image_key",
                     "user_id",
                     "key",
+                    "human_url",
                     "state",
                     "partner_id",
                     "todo_estimation",
@@ -97,6 +98,8 @@ odoo.define('scrummer.page.dashboard', function (require) {
                     "story_points",
                     "project_id",
                     "key",
+                    "url",
+                    "human_url",
                     "color",
                     "priority_id",
                     "parent_id",
@@ -146,7 +149,8 @@ odoo.define('scrummer.page.dashboard', function (require) {
         },
         start() {
             // When clicked on project in dashboard, fetch all boards and open last board.
-            this.$("a.project-key").click(() => {
+            this.$("a.project-key").click(ev => {
+                ev.preventDefault();
                 hash_service.setHash("project", this.record.id, false);
                 hash_service.setHash("page", "board", false);
             });

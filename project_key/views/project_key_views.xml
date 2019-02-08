@@ -10,7 +10,8 @@
         <field name="inherit_id" ref="project.edit_project"/>
         <field name="arch" type="xml">
             <field name="partner_id" position="before">
-                <field name="key"/>
+                <field name="human_url" invisible="1" />
+                <field name="key" widget="text_url" options="{'url_field': 'human_url'}"/>
             </field>
         </field>
     </record>
@@ -21,7 +22,8 @@
         <field name="inherit_id" ref="project.view_project"/>
         <field name="arch" type="xml">
             <field name="name" position="after">
-                <field name="key" required="0" readonly="1"/>
+                <field name="human_url" invisible="1" />
+                <field name="key" required="0" readonly="1" widget="text_url" options="{'url_field': 'human_url'}"/>
             </field>
         </field>
     </record>
@@ -43,7 +45,8 @@
         <field name="inherit_id" ref="project.view_task_form2"/>
         <field name="arch" type="xml">
             <field name="name" position="before">
-                <field name="key" readonly="1" nolabel="1" class="oe_read_only"/>
+                <field name="human_url" invisible="1" />
+                <field name="key" readonly="1" nolabel="1" class="oe_read_only" widget="text_url" options="{'url_field': 'human_url'}"/>
             </field>
         </field>
     </record>
@@ -55,7 +58,8 @@
         <field eval="2" name="priority"/>
         <field name="arch" type="xml">
             <field name="name" position="before">
-                <field name="key"/>
+                <field name="human_url" invisible="1" />
+                <field name="key" widget="text_url" options="{'url_field': 'human_url'}"/>
             </field>
         </field>
     </record>
@@ -84,12 +88,12 @@
             <!--</kanban>-->
 
             <field name="color" position="after">
-                <field name="url"/>
+                <field name="human_url"/>
                 <field name="key"/>
             </field>
 
             <xpath expr="//t[@t-name='kanban-box']//field[@name='name']/parent::strong" position="before">
-                <a t-att-href="record.url.raw_value"><field name="key"/></a>
+                <a t-att-href="record.human_url.raw_value"><field name="key"/></a>
             </xpath>
 
         </field>
@@ -101,7 +105,8 @@
         <field name="inherit_id" ref="project.project_project_view_form_simplified"/>
         <field name="arch" type="xml">
             <div name="alias_def" position="after">
-                <field name="key"/>
+                <field name="human_url" invisible="1" />
+                <field name="key" widget="text_url" options="{'url_field': 'human_url'}"/>
             </div>
         </field>
     </record>
@@ -116,7 +121,7 @@
             </field>
 
             <xpath expr="//t[@t-esc='record.name.value']" position="before">
-                <t t-esc="record.key.value"/>  -
+                <a t-attf-href="/web/browse/{{record.key.value}}"><t t-esc="record.key.value"/></a> -
             </xpath>
         </field>
     </record>

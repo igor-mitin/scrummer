@@ -83,7 +83,7 @@
             <i t-attf-class="mdi mdi-{{task.priority_scrummer_icon}} mdi-20px mdi-middle tooltipped" data-position="bottom" data-delay="50"
                t-attf-data-tooltip="{{task.priority_id[1]}}"
                t-attf-style="{{task.priority_scrummer_icon_color &amp;&amp; task.priority_scrummer_icon.startsWith('custom-') ? 'background-color:' + task.priority_scrummer_icon_color: 'color:' + task.priority_scrummer_icon_color}}"/>
-            <a class="task-key">
+            <a class="task-key" t-attf-href="{{task.human_url}}">
                 <t t-esc="task.key"/>
             </a>
             <t t-esc="task.name"/>
@@ -132,12 +132,12 @@
            t-attf-data-tooltip="{{widget.record.type_id[1]}}"
            t-attf-style="{{widget.record.type_scrummer_icon_color &amp;&amp; widget.record.type_scrummer_icon.startsWith('custom-') ? 'background-color:' + widget.record.type_scrummer_icon_color: 'color:' + widget.record.type_scrummer_icon_color}}"/>
         <span t-if="widget.record.parent_id" class="parent-key">
-            <a class="task-key" t-attf-card-id="{{widget.record.parent_id[0]}}">
+            <a class="task-key" t-attf-card-id="{{widget.record.parent_id[0]}}" t-attf-href="{{widget.record.parent_id[0].human_url}}">
                 <t t-esc="widget.record.parent_key"/>
             </a>
             /
         </span>
-        <a class="task-key">
+        <a class="task-key" t-attf-href="{{widget.record.human_url}}">
             <t t-esc="widget.record.key"/>
         </a>
         <t t-esc="widget.record.name"/>
