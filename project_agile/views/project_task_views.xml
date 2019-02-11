@@ -249,6 +249,9 @@
                 <field name="priority_id"/>
                  <field name="resolution_id"/>
             </field>
+            <field name="progress" position="after">
+                <field name="write_date"/>
+            </field>
         </field>
     </record>
 
