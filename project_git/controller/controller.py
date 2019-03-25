@@ -263,7 +263,7 @@ class GitController(http.Controller):
             ], limit=1)
 
             if len(task_commits):
-                self.send_task_commits(task_commits, sender. context)
+                self.send_task_commits(task_commits, sender, context)
 
             if len(orphan_commits):
                 self.send_orphan_commits(orphan_commits, sender, context)
