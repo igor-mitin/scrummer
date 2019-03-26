@@ -35,7 +35,7 @@ class TaskBrowser(http.Controller):
         '/web/browse/<string:key>',
     ], type='http', auth="user")
     def open(self, key, **kwargs):
-        redirect_url = self.get_prsoject_url(key)
+        redirect_url = self.get_project_url(key)
         if not redirect_url:
             redirect_url = self.get_task_url(key)
         return werkzeug.utils.redirect(redirect_url or '', 301)
